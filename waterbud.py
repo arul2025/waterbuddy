@@ -1,16 +1,16 @@
 import streamlit as st
+
+st.set_page_config(page_title="WaterBuddy 💧", page_icon="💧", layout="centered")
 st.markdown(
-    
+    """
     <style>
-    body {
+    .stApp {
         background-color: #e0f7fa;
     }
     </style>
-    
+    """,
     unsafe_allow_html=True
 )
-st.set_page_config(page_title="WaterBuddy 💧", page_icon="💧", layout="centered")
-
 st.title("💧 WaterBuddy — Stay Hydrated!")
 
 # --- 1️⃣ Age-based standard goals ---
