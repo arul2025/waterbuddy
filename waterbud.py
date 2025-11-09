@@ -1,12 +1,12 @@
 import streamlit as st
 st.markdown(
-    """
+    
     <style>
     body {
         background-color: #e0f7fa;
     }
     </style>
-    """,
+    
     unsafe_allow_html=True
 )
 st.set_page_config(page_title="WaterBuddy 💧", page_icon="💧", layout="centered")
